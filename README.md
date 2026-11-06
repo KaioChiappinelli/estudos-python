@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 # LIVRO - Introdução a programação com Python - Algoritmos e lógica de programação para iniciantes
-=======
-# Estudos de Python
->>>>>>> 1076156 (docs: Organiza e adiciona comandos de formatações no README)
 
-![Livro](imagem/livro.jpeg)
+# Estudos de Python
 
 Repositório dedicado aos meus estudos de Python, com exercícios e treinos
 
