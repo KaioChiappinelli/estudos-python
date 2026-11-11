@@ -1,34 +1,34 @@
+import random 
+import os
+os.system("cls")
 '''
 Módulo de repetições em python - Loop while e For
 '''
 
 # Programa que escreve a contagem regressiva de um foguete. O programa deve imprimir 10, 9, 8, 7..., 1, 0 e fogo! na tela.
-import random 
 
+
+"""
 contagem = 10
-"""
-Exercícios simples de repeticao
-"""
-
 while contagem > -1:
     print(contagem)
     contagem -= 1
+print("Fogo!")
+"""
+
 # 1 - Crie um programa que:
 # - Peça um número inteiro ao usuário.
 # - Utilize um laço for para contar de 1 até esse número.
 # - Mostre cada número na tela.
 
-print("Fogo!")
-numero_digitado = int(input("Digite até que número voce quer contar: "))
+
 
 # Imprima os valores entre 1 e o valor digitado pelo usuário
-
+'''
 numero = int(input("Digite um número: "))
         # inicio   # fim   # passo
 for i in range(1, numero + 1, 1):
-for i in range(1, numero_digitado + 1, 1):
-    print(i)
-
+'''
 
 # Exercício 2 — Tabuada (Fácil/Intermediário)
 # Crie um programa que:
