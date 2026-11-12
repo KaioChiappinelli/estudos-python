@@ -92,7 +92,7 @@ print(f"Total acumulado: {total}")
 '''        
 
 # Ex 5.
-
+'''
 nota = None
 
 if nota is None:
@@ -120,3 +120,22 @@ def saudacao(nome: str, mensagem = "Bom dia") -> str:
 
 mensagem = saudacao("Flávio")
 print(mensagem)
+'''
+# Ex 8 - Final 
+"""Crie uma função chamada mostrar_resultado().
+
+Ela deverá:
+1. Receber um parâmetro chamado resultado.
+2. O parâmetro deverá ter None como valor padrão.
+3. Se o resultado for None, retornar "Nenhum cálculo realizado.".
+4. Caso contrário, retornar "Último resultado: X", substituindo X pelo valor recebido."""
+
+def mostrar_resultado(resultado = None):
+    if resultado is None:
+        return "Nenhum cálculo realizado."
+    else:
+        resultado = f"Último resultado: {resultado}"
+        return resultado
+
+print(mostrar_resultado())
+print(mostrar_resultado(250))
